@@ -37,7 +37,7 @@ for i in range(1, 11):
     wcss.append(kmeans.inertia_)
 
 # Plotting the results onto a line graph,
-# `allowing us to observe 'The elbow'
+# allowing us to observe 'The elbow'
 plt.plot(range(1, 11), wcss)
 plt.title('The elbow method')
 plt.xlabel('Number of clusters')
